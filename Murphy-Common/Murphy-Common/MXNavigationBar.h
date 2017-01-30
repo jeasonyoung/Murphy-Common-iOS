@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "UINavigationItem+BaseNavigationItem.h"
 
-@interface BaseNavigationBar : UINavigationBar
+@interface MXNavigationBar : UINavigationBar
 
 @property(nonatomic, assign)UIColor *colorAdjustFactor;
 

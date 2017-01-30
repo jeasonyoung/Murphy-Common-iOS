@@ -8,9 +8,9 @@
 
 #import "UINavigationItem+BaseNavigationItem.h"
 
-#import "BaseNavBarButtonItem.h"
+#import "MXNavBarButtonItem.h"
 
-#include "CommonHeader.h"
+#include "MXHeader.h"
 
 @implementation UINavigationItem (BaseNavigationItem)
 
@@ -27,7 +27,7 @@
 }
 
 -(UIButton *)setRightItemWithTarget:(id)target title:(NSString *)title action:(SEL)action image:(NSString *)image{
-    BaseNavBarButtonItem *btnItem = [BaseNavBarButtonItem itemWithTarget:target title:title action:action image:image];
+    MXNavBarButtonItem *btnItem = [MXNavBarButtonItem itemWithTarget:target title:title action:action image:image];
     self.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btnItem.button];
     return btnItem.button;
 }
@@ -37,12 +37,12 @@
 }
 
 -(void)setBackItemWithTarget:(id)target title:(NSString *)title action:(SEL)action image:(NSString *)image{
-    BaseNavBarButtonItem *btnItem = [BaseNavBarButtonItem itemWithTarget:target title:title action:action image:image];
+    MXNavBarButtonItem *btnItem = [MXNavBarButtonItem itemWithTarget:target title:title action:action image:image];
     self.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btnItem.button];
 }
 
 -(void)setBackItemWithTarget:(id)target titles:(NSArray *)titles actions:(NSArray *)actions images:(NSArray *)images{
-    BaseNavBarButtonItem *btnItem = [BaseNavBarButtonItem itemWithTarget:target titles:titles actions:actions images:images];
+    MXNavBarButtonItem *btnItem = [MXNavBarButtonItem itemWithTarget:target titles:titles actions:actions images:images];
     self.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btnItem.view];
 }
 

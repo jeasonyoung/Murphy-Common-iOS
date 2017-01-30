@@ -10,6 +10,9 @@
 #define Murphy_Common_Header_h
 
 
+//#define kUserDefaults [NSUserDefaults standardUserDefaults];
+
+
 //color
 #define bg_color_clear [UIColor clearColor]
 #define bg_color_white [UIColor whiteColor]
@@ -53,16 +56,18 @@
 /**
  * @brief 粉红紫色。
  **/
-#define CustomPink RGBA(186, 59, 119, 1) //粉红
+#define color_pink RGBA(186, 59, 119, 1) //粉红
 /**
  * @brief 淡粉红。
  **/
-#define CustomlightPink RGBA(192,148,219,1) //淡粉红
+#define color_light_pink RGBA(192,148,219,1) //淡粉红
 
-#define Loading_text @"正在拉取数据"
+#define loading_text @"正在拉取数据"
 
 //font
 #define font_nav_title [UIFont boldSystemFontOfSize:19]
+//
+#define Font(fontSize) [UIFont systemFontOfSize:fontSize]
 
 //
 #define refresh_with_views @"refreshWithViews"

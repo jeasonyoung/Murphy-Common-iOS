@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BaseNavigationController : UINavigationController
+@interface MXNavigationController : UINavigationController
 
-@property(weak,nonatomic)UIViewController *currentShowVC;
+@property(assign,nonatomic)UIViewController *currentShowVC;
 
 @end

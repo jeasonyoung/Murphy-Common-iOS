@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BaseNavBarButtonItem : NSObject
+@interface MXNavBarButtonItem : NSObject
 
 +(instancetype)itemWithTarget:(id)target title:(NSString *)title action:(SEL)action image:(NSString *)image;
 

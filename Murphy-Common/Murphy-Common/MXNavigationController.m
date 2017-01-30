@@ -6,13 +6,13 @@
 //  Copyright © 2017年 ipower. All rights reserved.
 //
 
-#import "BaseNavigationController.h"
+#import "MXNavigationController.h"
 
-@interface BaseNavigationController ()<UIGestureRecognizerDelegate, UINavigationControllerDelegate>
+@interface MXNavigationController ()<UIGestureRecognizerDelegate, UINavigationControllerDelegate>
 
 @end
 
-@implementation BaseNavigationController
+@implementation MXNavigationController
 
 -(void)viewDidLoad {
     [super viewDidLoad];

@@ -8,6 +8,29 @@
 
 #import <Foundation/Foundation.h>
 
+
+/**
+ * @brief 网络状态。
+ **/
+typedef NS_ENUM(NSInteger, MXNetworkStatus){
+    MXNetworkStatusUnknown          = -1,//未知
+    MXNetworkStatusNotReachable     = 0,//无连接
+    MXNetworkStatusReachableViaWWAN = 1,//3G/4G
+    MXNetworkStatusReachableViaWiFi = 2,//WIFI
+};
+
+
+#import "MXHeader.h"
+
+#import "MXViewController.h"
+#import "MXNavigationBar.h"
+#import "MXNavigationController.h"
+
+#import "MXCollectionViewCell.h"
+
+#import "UINavigationItem+BaseNavigationItem.h"
+
+
 @interface Murphy_Common : NSObject
 
 @end

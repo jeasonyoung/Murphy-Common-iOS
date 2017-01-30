@@ -8,6 +8,10 @@ Pod::Spec.new do |s|
    s.source       = { :git => "https://github.com/jeasonyoung/Murphy-Common-iOS.git", :tag => "#{s.version}" }
    s.platform     = :ios
    s.source_files = "Murphy-Common/Murphy-Common"
-   s.frameworks   = "AFNetworking","MBProgressHUD","SDWebImage","Toast" 
    s.requires_arc = true
+
+   s.dependency "Toast","~> 3.1.0"
+   s.dependency "SDWebImage","~> 3.8"
+   s.dependency "MBProgressHUD","~> 1.0.0"
+   s.dependency "AFNetworking","~> 2.0"
 end

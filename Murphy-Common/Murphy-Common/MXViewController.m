@@ -6,20 +6,20 @@
 //  Copyright © 2017年 ipower. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import "MXViewController.h"
 
-#import "BaseNavigationBar.h"
+#import "MXNavigationBar.h"
 #import "UIView+Toast.h"
 #import "MBProgressHUD.h"
 
-#include "CommonHeader.h"
+#include "MXHeader.h"
 
-@interface BaseViewController (){
+@interface MXViewController (){
     MBProgressHUD *progress;
 }
 @end
 
-@implementation BaseViewController
+@implementation MXViewController
 
 -(instancetype)initWithParameters:(id)parameters{
     if(self = [super init]){
@@ -113,14 +113,14 @@
 }
 
 -(void)addNavigationWithPushController:(UIViewController *)viewController{
-    UINavigationController *nav = [[UINavigationController alloc] initWithNavigationBarClass:[BaseNavigationBar class]
+    UINavigationController *nav = [[UINavigationController alloc] initWithNavigationBarClass:[MXNavigationBar class]
                                                                                 toolbarClass:nil];
     nav.viewControllers = @[viewController];
     [self pushViewController:nav];
 }
 
 -(void)addNavigationWithPresentController:(UIViewController *)viewController{
-    UINavigationController *nav = [[UINavigationController alloc] initWithNavigationBarClass:[BaseNavigationBar class]
+    UINavigationController *nav = [[UINavigationController alloc] initWithNavigationBarClass:[MXNavigationBar class]
                                                                                 toolbarClass:nil];
     nav.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel
                                                                                          target:self

@@ -6,7 +6,7 @@
 //  Copyright © 2017年 ipower. All rights reserved.
 //
 
-#import "BaseNavBarButtonItem.h"
+#import "MXNavBarButtonItem.h"
 
 typedef enum {
     NavBarButtonItemTypeDefault = 0,
@@ -14,7 +14,7 @@ typedef enum {
     NavBarButtonItemTypeRight
 } NavBarButtonItemType;
 
-@implementation BaseNavBarButtonItem
+@implementation MXNavBarButtonItem
 
 -(instancetype)initWithType:(NavBarButtonItemType)itemType image:(NSString *)image title:(NSString *)title{
     if(self = [super init]){
@@ -83,13 +83,13 @@ typedef enum {
 }
 
 +(instancetype)itemWithTarget:(id)target title:(NSString *)title action:(SEL)action image:(NSString *)image{
-    BaseNavBarButtonItem *btnItem = [[BaseNavBarButtonItem alloc] initWithType:NavBarButtonItemTypeBack image:image title:title];
+    MXNavBarButtonItem *btnItem = [[MXNavBarButtonItem alloc] initWithType:NavBarButtonItemTypeBack image:image title:title];
     [btnItem setTarget:target withAction:action];
     return btnItem;
 }
 
 +(instancetype)itemWithTarget:(id)target titles:(NSArray *)titles actions:(NSArray *)actions images:(NSArray *)images{
-    return [[BaseNavBarButtonItem alloc] initWithType:NavBarButtonItemTypeBack images:images titles:titles];
+    return [[MXNavBarButtonItem alloc] initWithType:NavBarButtonItemTypeBack images:images titles:titles];
 }
 
 @end

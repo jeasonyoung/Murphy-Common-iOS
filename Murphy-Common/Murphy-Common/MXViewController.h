@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MXNetworkStatus.h"
+#import "Murphy_Common.h"
 
 /**
  * @brief 登录处理回调函数。
@@ -19,7 +19,7 @@ typedef void (^SuccessLoginBlock)(UIViewController *viewController, BOOL isSucce
 /**
  * @brief 控制器基础类。
  **/
-@interface BaseViewController : UIViewController
+@interface MXViewController : UIViewController
 
 /**
  * @brief 登录处理回调函数。

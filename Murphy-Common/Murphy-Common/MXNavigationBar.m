@@ -6,7 +6,7 @@
 //  Copyright © 2017年 ipower. All rights reserved.
 //
 
-#import "BaseNavigationBar.h"
+#import "MXNavigationBar.h"
 
 #ifndef IS_IOS7
 #define IS_IOS7 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7)
@@ -14,7 +14,7 @@
 
 #define Height 55.0
 
-@implementation BaseNavigationBar
+@implementation MXNavigationBar
 
 
 -(void)setColorAdjustFactor:(UIColor *)colorAdjustFactor{

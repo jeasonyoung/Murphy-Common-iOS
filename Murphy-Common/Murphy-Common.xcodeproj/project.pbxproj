@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		73107EE0700ADC840AEB8620 /* libPods-Murphy-Common.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC6AF1BF1927AB6591EB075 /* libPods-Murphy-Common.a */; };
+		A10A89341E38D430001FCF93 /* MXNavBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A10A892D1E38D430001FCF93 /* MXNavBarButtonItem.m */; };
+		A10A89351E38D430001FCF93 /* MXNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A10A892F1E38D430001FCF93 /* MXNavigationBar.m */; };
+		A10A89361E38D430001FCF93 /* MXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A10A89311E38D430001FCF93 /* MXNavigationController.m */; };
+		A10A89371E38D430001FCF93 /* MXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A10A89331E38D430001FCF93 /* MXViewController.m */; };
+		A10A893B1E38D563001FCF93 /* UINavigationItem+BaseNavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A10A893A1E38D563001FCF93 /* UINavigationItem+BaseNavigationItem.m */; };
+		A10A89441E3B12C8001FCF93 /* MXCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A10A89431E3B12C8001FCF93 /* MXCollectionViewCell.m */; };
 		A11795161E36F73E004CD200 /* Murphy_Common.m in Sources */ = {isa = PBXBuildFile; fileRef = A11795151E36F73E004CD200 /* Murphy_Common.m */; };
 		A11795171E36F73E004CD200 /* Murphy_Common.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A11795141E36F73E004CD200 /* Murphy_Common.h */; };
-		A1ED36BC1E36F87A00A0BD2F /* UINavigationItem+BaseNavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ED36B21E36F87A00A0BD2F /* UINavigationItem+BaseNavigationItem.m */; };
-		A1ED36BD1E36F87A00A0BD2F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ED36B41E36F87A00A0BD2F /* BaseViewController.m */; };
-		A1ED36BE1E36F87A00A0BD2F /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ED36B61E36F87A00A0BD2F /* BaseNavigationController.m */; };
-		A1ED36BF1E36F87A00A0BD2F /* BaseNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ED36B81E36F87A00A0BD2F /* BaseNavigationBar.m */; };
-		A1ED36C01E36F87A00A0BD2F /* BaseNavBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ED36BA1E36F87A00A0BD2F /* BaseNavBarButtonItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,21 +35,22 @@
 		0CBD20C9FA23F01F4C087312 /* Pods-Murphy-Common.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Murphy-Common.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Murphy-Common/Pods-Murphy-Common.debug.xcconfig"; sourceTree = "<group>"; };
 		2AC6AF1BF1927AB6591EB075 /* libPods-Murphy-Common.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Murphy-Common.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB7E6D0E450283832FE241E /* Pods-Murphy-Common.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Murphy-Common.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Murphy-Common/Pods-Murphy-Common.release.xcconfig"; sourceTree = "<group>"; };
+		A10A892C1E38D430001FCF93 /* MXNavBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXNavBarButtonItem.h; sourceTree = "<group>"; };
+		A10A892D1E38D430001FCF93 /* MXNavBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXNavBarButtonItem.m; sourceTree = "<group>"; };
+		A10A892E1E38D430001FCF93 /* MXNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXNavigationBar.h; sourceTree = "<group>"; };
+		A10A892F1E38D430001FCF93 /* MXNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXNavigationBar.m; sourceTree = "<group>"; };
+		A10A89301E38D430001FCF93 /* MXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXNavigationController.h; sourceTree = "<group>"; };
+		A10A89311E38D430001FCF93 /* MXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXNavigationController.m; sourceTree = "<group>"; };
+		A10A89321E38D430001FCF93 /* MXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXViewController.h; sourceTree = "<group>"; };
+		A10A89331E38D430001FCF93 /* MXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXViewController.m; sourceTree = "<group>"; };
+		A10A89391E38D563001FCF93 /* UINavigationItem+BaseNavigationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+BaseNavigationItem.h"; sourceTree = "<group>"; };
+		A10A893A1E38D563001FCF93 /* UINavigationItem+BaseNavigationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+BaseNavigationItem.m"; sourceTree = "<group>"; };
+		A10A89421E3B12C8001FCF93 /* MXCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXCollectionViewCell.h; sourceTree = "<group>"; };
+		A10A89431E3B12C8001FCF93 /* MXCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXCollectionViewCell.m; sourceTree = "<group>"; };
 		A11795111E36F73E004CD200 /* libMurphy-Common.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libMurphy-Common.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A11795141E36F73E004CD200 /* Murphy_Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Murphy_Common.h; sourceTree = "<group>"; };
 		A11795151E36F73E004CD200 /* Murphy_Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Murphy_Common.m; sourceTree = "<group>"; };
-		A1ED36B21E36F87A00A0BD2F /* UINavigationItem+BaseNavigationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationItem+BaseNavigationItem.m"; path = "ui/UINavigationItem+BaseNavigationItem.m"; sourceTree = "<group>"; };
-		A1ED36B31E36F87A00A0BD2F /* UINavigationItem+BaseNavigationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationItem+BaseNavigationItem.h"; path = "ui/UINavigationItem+BaseNavigationItem.h"; sourceTree = "<group>"; };
-		A1ED36B41E36F87A00A0BD2F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = ui/BaseViewController.m; sourceTree = "<group>"; };
-		A1ED36B51E36F87A00A0BD2F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = ui/BaseViewController.h; sourceTree = "<group>"; };
-		A1ED36B61E36F87A00A0BD2F /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseNavigationController.m; path = ui/BaseNavigationController.m; sourceTree = "<group>"; };
-		A1ED36B71E36F87A00A0BD2F /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseNavigationController.h; path = ui/BaseNavigationController.h; sourceTree = "<group>"; };
-		A1ED36B81E36F87A00A0BD2F /* BaseNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseNavigationBar.m; path = ui/BaseNavigationBar.m; sourceTree = "<group>"; };
-		A1ED36B91E36F87A00A0BD2F /* BaseNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseNavigationBar.h; path = ui/BaseNavigationBar.h; sourceTree = "<group>"; };
-		A1ED36BA1E36F87A00A0BD2F /* BaseNavBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseNavBarButtonItem.m; path = ui/BaseNavBarButtonItem.m; sourceTree = "<group>"; };
-		A1ED36BB1E36F87A00A0BD2F /* BaseNavBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseNavBarButtonItem.h; path = ui/BaseNavBarButtonItem.h; sourceTree = "<group>"; };
-		A1ED36C11E36F88400A0BD2F /* MXNetworkStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MXNetworkStatus.h; path = data/MXNetworkStatus.h; sourceTree = "<group>"; };
-		A1ED36C21E36F89000A0BD2F /* CommonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonHeader.h; sourceTree = "<group>"; };
+		A1ED36C21E36F89000A0BD2F /* MXHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A10A89381E38D438001FCF93 /* catalog */ = {
+			isa = PBXGroup;
+			children = (
+				A10A89391E38D563001FCF93 /* UINavigationItem+BaseNavigationItem.h */,
+				A10A893A1E38D563001FCF93 /* UINavigationItem+BaseNavigationItem.m */,
+			);
+			name = catalog;
+			sourceTree = "<group>";
+		};
 		A11795081E36F73E004CD200 = {
 			isa = PBXGroup;
 			children = (
@@ -101,36 +112,28 @@
 		A11795131E36F73E004CD200 /* Murphy-Common */ = {
 			isa = PBXGroup;
 			children = (
-				A1ED36C21E36F89000A0BD2F /* CommonHeader.h */,
-				A1ED36B11E36F86800A0BD2F /* ui */,
-				A1ED36B01E36F86200A0BD2F /* data */,
+				A1ED36C21E36F89000A0BD2F /* MXHeader.h */,
 				A11795141E36F73E004CD200 /* Murphy_Common.h */,
 				A11795151E36F73E004CD200 /* Murphy_Common.m */,
+				A1ED36B11E36F86800A0BD2F /* ui */,
+				A10A89381E38D438001FCF93 /* catalog */,
 			);
 			path = "Murphy-Common";
-			sourceTree = "<group>";
-		};
-		A1ED36B01E36F86200A0BD2F /* data */ = {
-			isa = PBXGroup;
-			children = (
-				A1ED36C11E36F88400A0BD2F /* MXNetworkStatus.h */,
-			);
-			name = data;
 			sourceTree = "<group>";
 		};
 		A1ED36B11E36F86800A0BD2F /* ui */ = {
 			isa = PBXGroup;
 			children = (
-				A1ED36B31E36F87A00A0BD2F /* UINavigationItem+BaseNavigationItem.h */,
-				A1ED36B21E36F87A00A0BD2F /* UINavigationItem+BaseNavigationItem.m */,
-				A1ED36B51E36F87A00A0BD2F /* BaseViewController.h */,
-				A1ED36B41E36F87A00A0BD2F /* BaseViewController.m */,
-				A1ED36B71E36F87A00A0BD2F /* BaseNavigationController.h */,
-				A1ED36B61E36F87A00A0BD2F /* BaseNavigationController.m */,
-				A1ED36B91E36F87A00A0BD2F /* BaseNavigationBar.h */,
-				A1ED36B81E36F87A00A0BD2F /* BaseNavigationBar.m */,
-				A1ED36BB1E36F87A00A0BD2F /* BaseNavBarButtonItem.h */,
-				A1ED36BA1E36F87A00A0BD2F /* BaseNavBarButtonItem.m */,
+				A10A892C1E38D430001FCF93 /* MXNavBarButtonItem.h */,
+				A10A892D1E38D430001FCF93 /* MXNavBarButtonItem.m */,
+				A10A892E1E38D430001FCF93 /* MXNavigationBar.h */,
+				A10A892F1E38D430001FCF93 /* MXNavigationBar.m */,
+				A10A89301E38D430001FCF93 /* MXNavigationController.h */,
+				A10A89311E38D430001FCF93 /* MXNavigationController.m */,
+				A10A89321E38D430001FCF93 /* MXViewController.h */,
+				A10A89331E38D430001FCF93 /* MXViewController.m */,
+				A10A89421E3B12C8001FCF93 /* MXCollectionViewCell.h */,
+				A10A89431E3B12C8001FCF93 /* MXCollectionViewCell.m */,
 			);
 			name = ui;
 			sourceTree = "<group>";
@@ -227,12 +230,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1ED36BE1E36F87A00A0BD2F /* BaseNavigationController.m in Sources */,
-				A1ED36BC1E36F87A00A0BD2F /* UINavigationItem+BaseNavigationItem.m in Sources */,
-				A1ED36BD1E36F87A00A0BD2F /* BaseViewController.m in Sources */,
-				A1ED36C01E36F87A00A0BD2F /* BaseNavBarButtonItem.m in Sources */,
+				A10A89441E3B12C8001FCF93 /* MXCollectionViewCell.m in Sources */,
+				A10A893B1E38D563001FCF93 /* UINavigationItem+BaseNavigationItem.m in Sources */,
+				A10A89361E38D430001FCF93 /* MXNavigationController.m in Sources */,
+				A10A89371E38D430001FCF93 /* MXViewController.m in Sources */,
 				A11795161E36F73E004CD200 /* Murphy_Common.m in Sources */,
-				A1ED36BF1E36F87A00A0BD2F /* BaseNavigationBar.m in Sources */,
+				A10A89351E38D430001FCF93 /* MXNavigationBar.m in Sources */,
+				A10A89341E38D430001FCF93 /* MXNavBarButtonItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +261,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -305,6 +310,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
