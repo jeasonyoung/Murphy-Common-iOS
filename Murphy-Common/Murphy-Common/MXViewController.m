@@ -174,6 +174,10 @@
 
 -(void)gotoLogingWithSuccess:(void (^)(BOOL))success class:(NSString *)className{
     Class clazz = NSClassFromString(className);
+    if(!clazz){
+        DLog(@"NSClassFromString-%@=>error!", className)
+        return;
+    }
     if(![self.navigationController.topViewController isKindOfClass:[clazz class]]){
         void (^GotoLogingWithSuccess)(BOOL isSuccess) = success;
         id login = [[clazz alloc] initWithLoginSuccess:^(UIViewController *viewController, BOOL isSuccess) {
