@@ -31,6 +31,10 @@ typedef NS_ENUM(NSInteger, MXNetworkStatus){
 #import "UINavigationItem+BaseNavigationItem.h"
 
 
+#include "MXTextField.h"
+#include "MXTextView.h"
+
+
 @interface Murphy_Common : NSObject
 
 @end

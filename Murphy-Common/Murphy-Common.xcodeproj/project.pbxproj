@@ -14,6 +14,9 @@
 		A10A89371E38D430001FCF93 /* MXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A10A89331E38D430001FCF93 /* MXViewController.m */; };
 		A10A893B1E38D563001FCF93 /* UINavigationItem+BaseNavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A10A893A1E38D563001FCF93 /* UINavigationItem+BaseNavigationItem.m */; };
 		A10A89441E3B12C8001FCF93 /* MXCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A10A89431E3B12C8001FCF93 /* MXCollectionViewCell.m */; };
+		A10A89611E3F65FD001FCF93 /* MXInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = A10A89601E3F65FD001FCF93 /* MXInputView.m */; };
+		A10A89651E3F66DB001FCF93 /* MXTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A10A89641E3F66DB001FCF93 /* MXTextField.m */; };
+		A10A89691E40C1BF001FCF93 /* MXTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A10A89681E40C1BF001FCF93 /* MXTextView.m */; };
 		A11795161E36F73E004CD200 /* Murphy_Common.m in Sources */ = {isa = PBXBuildFile; fileRef = A11795151E36F73E004CD200 /* Murphy_Common.m */; };
 		A11795171E36F73E004CD200 /* Murphy_Common.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A11795141E36F73E004CD200 /* Murphy_Common.h */; };
 /* End PBXBuildFile section */
@@ -47,6 +50,13 @@
 		A10A893A1E38D563001FCF93 /* UINavigationItem+BaseNavigationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+BaseNavigationItem.m"; sourceTree = "<group>"; };
 		A10A89421E3B12C8001FCF93 /* MXCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXCollectionViewCell.h; sourceTree = "<group>"; };
 		A10A89431E3B12C8001FCF93 /* MXCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXCollectionViewCell.m; sourceTree = "<group>"; };
+		A10A895F1E3F65FD001FCF93 /* MXInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXInputView.h; sourceTree = "<group>"; };
+		A10A89601E3F65FD001FCF93 /* MXInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXInputView.m; sourceTree = "<group>"; };
+		A10A89631E3F66DB001FCF93 /* MXTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXTextField.h; sourceTree = "<group>"; };
+		A10A89641E3F66DB001FCF93 /* MXTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXTextField.m; sourceTree = "<group>"; };
+		A10A89661E408A54001FCF93 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A10A89671E40C1BF001FCF93 /* MXTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXTextView.h; sourceTree = "<group>"; };
+		A10A89681E40C1BF001FCF93 /* MXTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXTextView.m; sourceTree = "<group>"; };
 		A11795111E36F73E004CD200 /* libMurphy-Common.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libMurphy-Common.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A11795141E36F73E004CD200 /* Murphy_Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Murphy_Common.h; sourceTree = "<group>"; };
 		A11795151E36F73E004CD200 /* Murphy_Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Murphy_Common.m; sourceTree = "<group>"; };
@@ -91,6 +101,17 @@
 			name = catalog;
 			sourceTree = "<group>";
 		};
+		A10A89621E3F6648001FCF93 /* text */ = {
+			isa = PBXGroup;
+			children = (
+				A10A89631E3F66DB001FCF93 /* MXTextField.h */,
+				A10A89641E3F66DB001FCF93 /* MXTextField.m */,
+				A10A89671E40C1BF001FCF93 /* MXTextView.h */,
+				A10A89681E40C1BF001FCF93 /* MXTextView.m */,
+			);
+			name = text;
+			sourceTree = "<group>";
+		};
 		A11795081E36F73E004CD200 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +138,7 @@
 				A11795151E36F73E004CD200 /* Murphy_Common.m */,
 				A1ED36B11E36F86800A0BD2F /* ui */,
 				A10A89381E38D438001FCF93 /* catalog */,
+				A10A89661E408A54001FCF93 /* Images.xcassets */,
 			);
 			path = "Murphy-Common";
 			sourceTree = "<group>";
@@ -124,6 +146,7 @@
 		A1ED36B11E36F86800A0BD2F /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				A10A89621E3F6648001FCF93 /* text */,
 				A10A892C1E38D430001FCF93 /* MXNavBarButtonItem.h */,
 				A10A892D1E38D430001FCF93 /* MXNavBarButtonItem.m */,
 				A10A892E1E38D430001FCF93 /* MXNavigationBar.h */,
@@ -134,6 +157,8 @@
 				A10A89331E38D430001FCF93 /* MXViewController.m */,
 				A10A89421E3B12C8001FCF93 /* MXCollectionViewCell.h */,
 				A10A89431E3B12C8001FCF93 /* MXCollectionViewCell.m */,
+				A10A895F1E3F65FD001FCF93 /* MXInputView.h */,
+				A10A89601E3F65FD001FCF93 /* MXInputView.m */,
 			);
 			name = ui;
 			sourceTree = "<group>";
@@ -230,6 +255,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10A89651E3F66DB001FCF93 /* MXTextField.m in Sources */,
+				A10A89611E3F65FD001FCF93 /* MXInputView.m in Sources */,
+				A10A89691E40C1BF001FCF93 /* MXTextView.m in Sources */,
 				A10A89441E3B12C8001FCF93 /* MXCollectionViewCell.m in Sources */,
 				A10A893B1E38D563001FCF93 /* UINavigationItem+BaseNavigationItem.m in Sources */,
 				A10A89361E38D430001FCF93 /* MXNavigationController.m in Sources */,
