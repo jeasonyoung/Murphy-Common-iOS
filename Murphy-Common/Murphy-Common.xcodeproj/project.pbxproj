@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		73107EE0700ADC840AEB8620 /* libPods-Murphy-Common.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC6AF1BF1927AB6591EB075 /* libPods-Murphy-Common.a */; };
-		A10A89341E38D430001FCF93 /* MXNavBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A10A892D1E38D430001FCF93 /* MXNavBarButtonItem.m */; };
-		A10A89351E38D430001FCF93 /* MXNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A10A892F1E38D430001FCF93 /* MXNavigationBar.m */; };
-		A10A89361E38D430001FCF93 /* MXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A10A89311E38D430001FCF93 /* MXNavigationController.m */; };
-		A10A89371E38D430001FCF93 /* MXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A10A89331E38D430001FCF93 /* MXViewController.m */; };
-		A10A893B1E38D563001FCF93 /* UINavigationItem+BaseNavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A10A893A1E38D563001FCF93 /* UINavigationItem+BaseNavigationItem.m */; };
-		A10A89441E3B12C8001FCF93 /* MXCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A10A89431E3B12C8001FCF93 /* MXCollectionViewCell.m */; };
-		A10A89611E3F65FD001FCF93 /* MXInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = A10A89601E3F65FD001FCF93 /* MXInputView.m */; };
-		A10A89651E3F66DB001FCF93 /* MXTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A10A89641E3F66DB001FCF93 /* MXTextField.m */; };
-		A10A89691E40C1BF001FCF93 /* MXTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A10A89681E40C1BF001FCF93 /* MXTextView.m */; };
 		A11795161E36F73E004CD200 /* Murphy_Common.m in Sources */ = {isa = PBXBuildFile; fileRef = A11795151E36F73E004CD200 /* Murphy_Common.m */; };
 		A11795171E36F73E004CD200 /* Murphy_Common.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A11795141E36F73E004CD200 /* Murphy_Common.h */; };
+		A14BED791E45DB5300980EEF /* UINavigationItem+BaseNavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A14BED781E45DB5300980EEF /* UINavigationItem+BaseNavigationItem.m */; };
+		A14BED811E45DC6800980EEF /* MXTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A14BED7E1E45DC6800980EEF /* MXTextField.m */; };
+		A14BED821E45DC6800980EEF /* MXTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A14BED801E45DC6800980EEF /* MXTextView.m */; };
+		A14BED851E45DC7B00980EEF /* MXInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = A14BED841E45DC7B00980EEF /* MXInputView.m */; };
+		A14BED8A1E45DC8B00980EEF /* MXNavBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A14BED871E45DC8B00980EEF /* MXNavBarButtonItem.m */; };
+		A14BED8B1E45DC8B00980EEF /* MXNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A14BED891E45DC8B00980EEF /* MXNavigationBar.m */; };
+		A14BED8E1E45DC9900980EEF /* MXCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A14BED8D1E45DC9900980EEF /* MXCollectionViewCell.m */; };
+		A14BED931E45DCAE00980EEF /* MXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A14BED901E45DCAE00980EEF /* MXNavigationController.m */; };
+		A14BED941E45DCAE00980EEF /* MXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A14BED921E45DCAE00980EEF /* MXViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,28 +38,30 @@
 		0CBD20C9FA23F01F4C087312 /* Pods-Murphy-Common.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Murphy-Common.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Murphy-Common/Pods-Murphy-Common.debug.xcconfig"; sourceTree = "<group>"; };
 		2AC6AF1BF1927AB6591EB075 /* libPods-Murphy-Common.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Murphy-Common.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB7E6D0E450283832FE241E /* Pods-Murphy-Common.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Murphy-Common.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Murphy-Common/Pods-Murphy-Common.release.xcconfig"; sourceTree = "<group>"; };
-		A10A892C1E38D430001FCF93 /* MXNavBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXNavBarButtonItem.h; sourceTree = "<group>"; };
-		A10A892D1E38D430001FCF93 /* MXNavBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXNavBarButtonItem.m; sourceTree = "<group>"; };
-		A10A892E1E38D430001FCF93 /* MXNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXNavigationBar.h; sourceTree = "<group>"; };
-		A10A892F1E38D430001FCF93 /* MXNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXNavigationBar.m; sourceTree = "<group>"; };
-		A10A89301E38D430001FCF93 /* MXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXNavigationController.h; sourceTree = "<group>"; };
-		A10A89311E38D430001FCF93 /* MXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXNavigationController.m; sourceTree = "<group>"; };
-		A10A89321E38D430001FCF93 /* MXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXViewController.h; sourceTree = "<group>"; };
-		A10A89331E38D430001FCF93 /* MXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXViewController.m; sourceTree = "<group>"; };
-		A10A89391E38D563001FCF93 /* UINavigationItem+BaseNavigationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+BaseNavigationItem.h"; sourceTree = "<group>"; };
-		A10A893A1E38D563001FCF93 /* UINavigationItem+BaseNavigationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+BaseNavigationItem.m"; sourceTree = "<group>"; };
-		A10A89421E3B12C8001FCF93 /* MXCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXCollectionViewCell.h; sourceTree = "<group>"; };
-		A10A89431E3B12C8001FCF93 /* MXCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXCollectionViewCell.m; sourceTree = "<group>"; };
-		A10A895F1E3F65FD001FCF93 /* MXInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXInputView.h; sourceTree = "<group>"; };
-		A10A89601E3F65FD001FCF93 /* MXInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXInputView.m; sourceTree = "<group>"; };
-		A10A89631E3F66DB001FCF93 /* MXTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXTextField.h; sourceTree = "<group>"; };
-		A10A89641E3F66DB001FCF93 /* MXTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXTextField.m; sourceTree = "<group>"; };
 		A10A89661E408A54001FCF93 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A10A89671E40C1BF001FCF93 /* MXTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXTextView.h; sourceTree = "<group>"; };
-		A10A89681E40C1BF001FCF93 /* MXTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXTextView.m; sourceTree = "<group>"; };
 		A11795111E36F73E004CD200 /* libMurphy-Common.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libMurphy-Common.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A11795141E36F73E004CD200 /* Murphy_Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Murphy_Common.h; sourceTree = "<group>"; };
 		A11795151E36F73E004CD200 /* Murphy_Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Murphy_Common.m; sourceTree = "<group>"; };
+		A14BED761E45DA9B00980EEF /* Category-header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Category-header.h"; path = "categories/Category-header.h"; sourceTree = "<group>"; };
+		A14BED771E45DB5300980EEF /* UINavigationItem+BaseNavigationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationItem+BaseNavigationItem.h"; path = "categories/UINavigationItem+BaseNavigationItem.h"; sourceTree = "<group>"; };
+		A14BED781E45DB5300980EEF /* UINavigationItem+BaseNavigationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationItem+BaseNavigationItem.m"; path = "categories/UINavigationItem+BaseNavigationItem.m"; sourceTree = "<group>"; };
+		A14BED7D1E45DC6800980EEF /* MXTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MXTextField.h; path = ui/text/MXTextField.h; sourceTree = "<group>"; };
+		A14BED7E1E45DC6800980EEF /* MXTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MXTextField.m; path = ui/text/MXTextField.m; sourceTree = "<group>"; };
+		A14BED7F1E45DC6800980EEF /* MXTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MXTextView.h; path = ui/text/MXTextView.h; sourceTree = "<group>"; };
+		A14BED801E45DC6800980EEF /* MXTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MXTextView.m; path = ui/text/MXTextView.m; sourceTree = "<group>"; };
+		A14BED831E45DC7B00980EEF /* MXInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MXInputView.h; path = ui/input/MXInputView.h; sourceTree = "<group>"; };
+		A14BED841E45DC7B00980EEF /* MXInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MXInputView.m; path = ui/input/MXInputView.m; sourceTree = "<group>"; };
+		A14BED861E45DC8B00980EEF /* MXNavBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MXNavBarButtonItem.h; path = ui/nav/MXNavBarButtonItem.h; sourceTree = "<group>"; };
+		A14BED871E45DC8B00980EEF /* MXNavBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MXNavBarButtonItem.m; path = ui/nav/MXNavBarButtonItem.m; sourceTree = "<group>"; };
+		A14BED881E45DC8B00980EEF /* MXNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MXNavigationBar.h; path = ui/nav/MXNavigationBar.h; sourceTree = "<group>"; };
+		A14BED891E45DC8B00980EEF /* MXNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MXNavigationBar.m; path = ui/nav/MXNavigationBar.m; sourceTree = "<group>"; };
+		A14BED8C1E45DC9900980EEF /* MXCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MXCollectionViewCell.h; path = ui/cell/MXCollectionViewCell.h; sourceTree = "<group>"; };
+		A14BED8D1E45DC9900980EEF /* MXCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MXCollectionViewCell.m; path = ui/cell/MXCollectionViewCell.m; sourceTree = "<group>"; };
+		A14BED8F1E45DCAE00980EEF /* MXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MXNavigationController.h; path = ui/controllers/MXNavigationController.h; sourceTree = "<group>"; };
+		A14BED901E45DCAE00980EEF /* MXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MXNavigationController.m; path = ui/controllers/MXNavigationController.m; sourceTree = "<group>"; };
+		A14BED911E45DCAE00980EEF /* MXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MXViewController.h; path = ui/controllers/MXViewController.h; sourceTree = "<group>"; };
+		A14BED921E45DCAE00980EEF /* MXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MXViewController.m; path = ui/controllers/MXViewController.m; sourceTree = "<group>"; };
+		A14BED951E45DCDD00980EEF /* UI-header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UI-header.h"; path = "ui/UI-header.h"; sourceTree = "<group>"; };
 		A1ED36C21E36F89000A0BD2F /* MXHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,24 +94,34 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		A10A89381E38D438001FCF93 /* catalog */ = {
+		A10A89381E38D438001FCF93 /* categories */ = {
 			isa = PBXGroup;
 			children = (
-				A10A89391E38D563001FCF93 /* UINavigationItem+BaseNavigationItem.h */,
-				A10A893A1E38D563001FCF93 /* UINavigationItem+BaseNavigationItem.m */,
+				A14BED761E45DA9B00980EEF /* Category-header.h */,
+				A14BED771E45DB5300980EEF /* UINavigationItem+BaseNavigationItem.h */,
+				A14BED781E45DB5300980EEF /* UINavigationItem+BaseNavigationItem.m */,
 			);
-			name = catalog;
+			name = categories;
 			sourceTree = "<group>";
 		};
 		A10A89621E3F6648001FCF93 /* text */ = {
 			isa = PBXGroup;
 			children = (
-				A10A89631E3F66DB001FCF93 /* MXTextField.h */,
-				A10A89641E3F66DB001FCF93 /* MXTextField.m */,
-				A10A89671E40C1BF001FCF93 /* MXTextView.h */,
-				A10A89681E40C1BF001FCF93 /* MXTextView.m */,
+				A14BED7D1E45DC6800980EEF /* MXTextField.h */,
+				A14BED7E1E45DC6800980EEF /* MXTextField.m */,
+				A14BED7F1E45DC6800980EEF /* MXTextView.h */,
+				A14BED801E45DC6800980EEF /* MXTextView.m */,
 			);
 			name = text;
+			sourceTree = "<group>";
+		};
+		A10A896D1E4579EC001FCF93 /* input */ = {
+			isa = PBXGroup;
+			children = (
+				A14BED831E45DC7B00980EEF /* MXInputView.h */,
+				A14BED841E45DC7B00980EEF /* MXInputView.m */,
+			);
+			name = input;
 			sourceTree = "<group>";
 		};
 		A11795081E36F73E004CD200 = {
@@ -137,28 +149,52 @@
 				A11795141E36F73E004CD200 /* Murphy_Common.h */,
 				A11795151E36F73E004CD200 /* Murphy_Common.m */,
 				A1ED36B11E36F86800A0BD2F /* ui */,
-				A10A89381E38D438001FCF93 /* catalog */,
+				A10A89381E38D438001FCF93 /* categories */,
 				A10A89661E408A54001FCF93 /* Images.xcassets */,
 			);
 			path = "Murphy-Common";
 			sourceTree = "<group>";
 		};
+		A14BED7A1E45DBB600980EEF /* nav */ = {
+			isa = PBXGroup;
+			children = (
+				A14BED861E45DC8B00980EEF /* MXNavBarButtonItem.h */,
+				A14BED871E45DC8B00980EEF /* MXNavBarButtonItem.m */,
+				A14BED881E45DC8B00980EEF /* MXNavigationBar.h */,
+				A14BED891E45DC8B00980EEF /* MXNavigationBar.m */,
+			);
+			name = nav;
+			sourceTree = "<group>";
+		};
+		A14BED7B1E45DBC500980EEF /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				A14BED8C1E45DC9900980EEF /* MXCollectionViewCell.h */,
+				A14BED8D1E45DC9900980EEF /* MXCollectionViewCell.m */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		A14BED7C1E45DBD100980EEF /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A14BED911E45DCAE00980EEF /* MXViewController.h */,
+				A14BED921E45DCAE00980EEF /* MXViewController.m */,
+				A14BED8F1E45DCAE00980EEF /* MXNavigationController.h */,
+				A14BED901E45DCAE00980EEF /* MXNavigationController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
 		A1ED36B11E36F86800A0BD2F /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				A14BED951E45DCDD00980EEF /* UI-header.h */,
 				A10A89621E3F6648001FCF93 /* text */,
-				A10A892C1E38D430001FCF93 /* MXNavBarButtonItem.h */,
-				A10A892D1E38D430001FCF93 /* MXNavBarButtonItem.m */,
-				A10A892E1E38D430001FCF93 /* MXNavigationBar.h */,
-				A10A892F1E38D430001FCF93 /* MXNavigationBar.m */,
-				A10A89301E38D430001FCF93 /* MXNavigationController.h */,
-				A10A89311E38D430001FCF93 /* MXNavigationController.m */,
-				A10A89321E38D430001FCF93 /* MXViewController.h */,
-				A10A89331E38D430001FCF93 /* MXViewController.m */,
-				A10A89421E3B12C8001FCF93 /* MXCollectionViewCell.h */,
-				A10A89431E3B12C8001FCF93 /* MXCollectionViewCell.m */,
-				A10A895F1E3F65FD001FCF93 /* MXInputView.h */,
-				A10A89601E3F65FD001FCF93 /* MXInputView.m */,
+				A10A896D1E4579EC001FCF93 /* input */,
+				A14BED7A1E45DBB600980EEF /* nav */,
+				A14BED7B1E45DBC500980EEF /* cell */,
+				A14BED7C1E45DBD100980EEF /* controllers */,
 			);
 			name = ui;
 			sourceTree = "<group>";
@@ -255,16 +291,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A10A89651E3F66DB001FCF93 /* MXTextField.m in Sources */,
-				A10A89611E3F65FD001FCF93 /* MXInputView.m in Sources */,
-				A10A89691E40C1BF001FCF93 /* MXTextView.m in Sources */,
-				A10A89441E3B12C8001FCF93 /* MXCollectionViewCell.m in Sources */,
-				A10A893B1E38D563001FCF93 /* UINavigationItem+BaseNavigationItem.m in Sources */,
-				A10A89361E38D430001FCF93 /* MXNavigationController.m in Sources */,
-				A10A89371E38D430001FCF93 /* MXViewController.m in Sources */,
+				A14BED811E45DC6800980EEF /* MXTextField.m in Sources */,
+				A14BED821E45DC6800980EEF /* MXTextView.m in Sources */,
+				A14BED8B1E45DC8B00980EEF /* MXNavigationBar.m in Sources */,
+				A14BED8E1E45DC9900980EEF /* MXCollectionViewCell.m in Sources */,
+				A14BED931E45DCAE00980EEF /* MXNavigationController.m in Sources */,
+				A14BED941E45DCAE00980EEF /* MXViewController.m in Sources */,
+				A14BED851E45DC7B00980EEF /* MXInputView.m in Sources */,
 				A11795161E36F73E004CD200 /* Murphy_Common.m in Sources */,
-				A10A89351E38D430001FCF93 /* MXNavigationBar.m in Sources */,
-				A10A89341E38D430001FCF93 /* MXNavBarButtonItem.m in Sources */,
+				A14BED791E45DB5300980EEF /* UINavigationItem+BaseNavigationItem.m in Sources */,
+				A14BED8A1E45DC8B00980EEF /* MXNavBarButtonItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
