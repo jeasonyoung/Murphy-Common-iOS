@@ -19,6 +19,8 @@
 		A14BED8E1E45DC9900980EEF /* MXCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A14BED8D1E45DC9900980EEF /* MXCollectionViewCell.m */; };
 		A14BED931E45DCAE00980EEF /* MXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A14BED901E45DCAE00980EEF /* MXNavigationController.m */; };
 		A14BED941E45DCAE00980EEF /* MXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A14BED921E45DCAE00980EEF /* MXViewController.m */; };
+		A14BED981E460C4700980EEF /* CALayer+CGLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A14BED971E460C4700980EEF /* CALayer+CGLayer.m */; };
+		A14BED9B1E46295C00980EEF /* UIView+CGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A14BED9A1E46295C00980EEF /* UIView+CGTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -62,6 +64,10 @@
 		A14BED911E45DCAE00980EEF /* MXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MXViewController.h; path = ui/controllers/MXViewController.h; sourceTree = "<group>"; };
 		A14BED921E45DCAE00980EEF /* MXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MXViewController.m; path = ui/controllers/MXViewController.m; sourceTree = "<group>"; };
 		A14BED951E45DCDD00980EEF /* UI-header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UI-header.h"; path = "ui/UI-header.h"; sourceTree = "<group>"; };
+		A14BED961E460C4700980EEF /* CALayer+CGLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CALayer+CGLayer.h"; path = "categories/CALayer+CGLayer.h"; sourceTree = "<group>"; };
+		A14BED971E460C4700980EEF /* CALayer+CGLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CALayer+CGLayer.m"; path = "categories/CALayer+CGLayer.m"; sourceTree = "<group>"; };
+		A14BED991E46295C00980EEF /* UIView+CGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+CGTool.h"; path = "categories/UIView+CGTool.h"; sourceTree = "<group>"; };
+		A14BED9A1E46295C00980EEF /* UIView+CGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+CGTool.m"; path = "categories/UIView+CGTool.m"; sourceTree = "<group>"; };
 		A1ED36C21E36F89000A0BD2F /* MXHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				A14BED761E45DA9B00980EEF /* Category-header.h */,
+				A14BED961E460C4700980EEF /* CALayer+CGLayer.h */,
+				A14BED971E460C4700980EEF /* CALayer+CGLayer.m */,
+				A14BED991E46295C00980EEF /* UIView+CGTool.h */,
+				A14BED9A1E46295C00980EEF /* UIView+CGTool.m */,
 				A14BED771E45DB5300980EEF /* UINavigationItem+BaseNavigationItem.h */,
 				A14BED781E45DB5300980EEF /* UINavigationItem+BaseNavigationItem.m */,
 			);
@@ -301,6 +311,8 @@
 				A11795161E36F73E004CD200 /* Murphy_Common.m in Sources */,
 				A14BED791E45DB5300980EEF /* UINavigationItem+BaseNavigationItem.m in Sources */,
 				A14BED8A1E45DC8B00980EEF /* MXNavBarButtonItem.m in Sources */,
+				A14BED9B1E46295C00980EEF /* UIView+CGTool.m in Sources */,
+				A14BED981E460C4700980EEF /* CALayer+CGLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

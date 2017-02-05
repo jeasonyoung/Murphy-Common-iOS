@@ -9,6 +9,8 @@
 #ifndef Murphy_Common_Category_h
 #define Murphy_Common_Category_h
 
+#import "CALayer+CGLayer.h"
+#import "UIView+CGTool.h"
 #import "UINavigationItem+BaseNavigationItem.h"
 
 #endif /* Catagory_h */
