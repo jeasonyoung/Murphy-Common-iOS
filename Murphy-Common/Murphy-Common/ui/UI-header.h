@@ -10,21 +10,21 @@
 #define Murphy_Common_UI_h
 
 //text
-#import "MXTextField.h"
-#import "MXTextView.h"
+#import "text/MXTextField.h"
+#import "text/MXTextView.h"
 
 //input
-#import "MXInputView.h"
+#import "input/MXInputView.h"
 
 //nav
-#import "MXNavigationBar.h"
+#import "nav/MXNavigationBar.h"
 
 //cell
-#import "MXCollectionViewCell.h"
+#import "cell/MXCollectionViewCell.h"
 
 //controllers
-#import "MXViewController.h"
-#import "MXNavigationController.h"
+#import "controllers/MXViewController.h"
+#import "controllers/MXNavigationController.h"
 
 
 #endif /* UI_h */
