@@ -36,6 +36,6 @@
 /**
  * @brief 事件委托。
  **/
-@property(nonatomic, weak) id<MXTextFieldDelegate> delegate;
+@property(assign,nonatomic) id<MXTextFieldDelegate> delegate;
 
 @end
