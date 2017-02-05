@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "../text/MXTextField.h"
-#import "../text/MXTextView.h"
+#import "MXTextField.h"
+#import "MXTextView.h"
 
 /**
  * @brief 输入面板。

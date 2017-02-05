@@ -23,11 +23,22 @@ typedef NS_ENUM(NSInteger, MXNetworkStatus){
 #import "MXHeader.h"
 
 //category
-#import "categories/Category-header.h"
+#import "CALayer+CGLayer.h"
+#import "UIView+CGTool.h"
 
-//ui
-#import "ui/UI-header.h"
-
+//ui-text
+#import "MXTextField.h"
+#import "MXTextView.h"
+//ui-input
+#import "MXInputView.h"
+//ui-nav
+#import "MXNavBarButtonItem.h"
+#import "MXNavigationBar.h"
+//ui-cell
+#import "MXCollectionViewCell.h"
+//ui-controllers
+#import "MXViewController.h"
+#import "MXNavigationController.h"
 
 @interface Murphy_Common : NSObject
 

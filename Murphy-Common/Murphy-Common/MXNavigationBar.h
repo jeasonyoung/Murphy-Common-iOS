@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "../../categories/UINavigationItem+BaseNavigationItem.h"
+#import "UINavigationItem+BaseNavigationItem.h"
 
 @interface MXNavigationBar : UINavigationBar
 
