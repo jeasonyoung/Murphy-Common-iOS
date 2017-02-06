@@ -12,6 +12,7 @@
 		A11795171E36F73E004CD200 /* Murphy_Common.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A11795141E36F73E004CD200 /* Murphy_Common.h */; };
 		A11E769B1E47635600ABE251 /* UIView+CGQuartz.m in Sources */ = {isa = PBXBuildFile; fileRef = A11E769A1E47635600ABE251 /* UIView+CGQuartz.m */; };
 		A11E76AC1E48A63A00ABE251 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = A11E76AB1E48A63A00ABE251 /* NSString+MD5Addition.m */; };
+		A11E76AF1E48BBA800ABE251 /* NSObject+CGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A11E76AE1E48BBA800ABE251 /* NSObject+CGTool.m */; };
 		A14BEDA21E472D9A00980EEF /* CALayer+CGLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A14BED9D1E472D9A00980EEF /* CALayer+CGLayer.m */; };
 		A14BEDA31E472D9A00980EEF /* UINavigationItem+BaseNavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A14BED9F1E472D9A00980EEF /* UINavigationItem+BaseNavigationItem.m */; };
 		A14BEDA41E472D9A00980EEF /* UIView+CGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A14BEDA11E472D9A00980EEF /* UIView+CGTool.m */; };
@@ -50,6 +51,8 @@
 		A11E769A1E47635600ABE251 /* UIView+CGQuartz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGQuartz.m"; sourceTree = "<group>"; };
 		A11E76AA1E48A63A00ABE251 /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
 		A11E76AB1E48A63A00ABE251 /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
+		A11E76AD1E48BBA800ABE251 /* NSObject+CGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CGTool.h"; sourceTree = "<group>"; };
+		A11E76AE1E48BBA800ABE251 /* NSObject+CGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CGTool.m"; sourceTree = "<group>"; };
 		A14BED9C1E472D9A00980EEF /* CALayer+CGLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+CGLayer.h"; sourceTree = "<group>"; };
 		A14BED9D1E472D9A00980EEF /* CALayer+CGLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+CGLayer.m"; sourceTree = "<group>"; };
 		A14BED9E1E472D9A00980EEF /* UINavigationItem+BaseNavigationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+BaseNavigationItem.h"; sourceTree = "<group>"; };
@@ -107,6 +110,8 @@
 		A10A89381E38D438001FCF93 /* categories */ = {
 			isa = PBXGroup;
 			children = (
+				A11E76AD1E48BBA800ABE251 /* NSObject+CGTool.h */,
+				A11E76AE1E48BBA800ABE251 /* NSObject+CGTool.m */,
 				A11E76AA1E48A63A00ABE251 /* NSString+MD5Addition.h */,
 				A11E76AB1E48A63A00ABE251 /* NSString+MD5Addition.m */,
 				A14BED9C1E472D9A00980EEF /* CALayer+CGLayer.h */,
@@ -309,6 +314,7 @@
 			files = (
 				A14BEDA91E472DE800980EEF /* MXTextField.m in Sources */,
 				A11795161E36F73E004CD200 /* Murphy_Common.m in Sources */,
+				A11E76AF1E48BBA800ABE251 /* NSObject+CGTool.m in Sources */,
 				A14BEDB31E472EC000980EEF /* MXNavigationBar.m in Sources */,
 				A14BEDA21E472D9A00980EEF /* CALayer+CGLayer.m in Sources */,
 				A14BEDAD1E472E2900980EEF /* MXInputView.m in Sources */,
