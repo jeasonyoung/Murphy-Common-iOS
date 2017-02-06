@@ -23,6 +23,7 @@ typedef NS_ENUM(NSInteger, MXNetworkStatus){
 #import "MXHeader.h"
 
 //category
+#import "NSString+MD5Addition.h"
 #import "CALayer+CGLayer.h"
 #import "UIView+CGTool.h"
 #import "UIView+CGQuartz.h"
