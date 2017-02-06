@@ -9,12 +9,18 @@
 #ifndef Murphy_Common_Header_h
 #define Murphy_Common_Header_h
 
-
-//#define kUserDefaults [NSUserDefaults standardUserDefaults];
-
+//
 #define defaultInset  UIEdgeInsetsMake(5, 10, 5, 10)
 #define kDefaultInset UIEdgeInsetsMake(8, 10, 8, 10)
-
+//
+/**
+ * @brief 设备宽度
+ **/
+#define device_width CGRectGetWidth([[UIScreen mainScreen] bounds])
+/**
+ * @brief 设备高度
+ **/
+#define device_height CGRectGetHeight([[UIScreen mainScreen] bounds])
 
 //color
 #define bg_color_clear [UIColor clearColor]
