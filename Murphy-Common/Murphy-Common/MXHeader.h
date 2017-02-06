@@ -76,6 +76,7 @@
 #define font_nav_title [UIFont boldSystemFontOfSize:19]
 //
 #define Font(fontSize) [UIFont systemFontOfSize:fontSize]
+#define FontBold(fontSize) [UIFont fontWithName:@"Helvetica-Bold" size:fontSize]
 
 //
 #define refresh_with_views @"refreshWithViews"
