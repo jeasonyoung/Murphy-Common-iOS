@@ -22,6 +22,11 @@
 #define text_color_white [UIColor whiteColor]
 
 /**
+ * @brief 红色
+ **/
+#define color_red [UIColor redColor]
+
+/**
  * @brief 与蓝色导航条一样的颜色。
  **/
 #define RGBA(r,g,b,a)	[UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a] //RGB颜色
