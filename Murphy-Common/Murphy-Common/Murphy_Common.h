@@ -25,6 +25,7 @@ typedef NS_ENUM(NSInteger, MXNetworkStatus){
 //category
 #import "CALayer+CGLayer.h"
 #import "UIView+CGTool.h"
+#import "UIView+CGQuartz.h"
 
 //ui-text
 #import "MXTextField.h"
