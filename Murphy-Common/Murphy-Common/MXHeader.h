@@ -28,6 +28,11 @@
 #define text_color_white [UIColor whiteColor]
 
 /**
+ * @brief 白色
+ **/
+#define color_white [UIColor whiteColor]
+
+/**
  * @brief 红色
  **/
 #define color_red [UIColor redColor]
