@@ -6,11 +6,16 @@
 //  Copyright © 2017年 ipower. All rights reserved.
 //
 
-#import "NSString+MD5Addition.h"
+#import "NSString+CGTool.h"
 #import <CommonCrypto/CommonDigest.h>
 
 //实现
-@implementation NSString (MD5Addition)
+@implementation NSString (CGTool)
+
+#pragma mark -- 去除空格
+-(NSString *)trim{
+    return [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+}
 
 #pragma mark - md5
 -(NSString *)stringFromMD5{

@@ -11,7 +11,12 @@
 /**
  * @brief md5
  **/
-@interface NSString (MD5Addition)
+@interface NSString (CGTool)
+
+/**
+ * 去除空格
+ **/
+-(NSString *)trim;
 
 /**
  * @brief md5加密
