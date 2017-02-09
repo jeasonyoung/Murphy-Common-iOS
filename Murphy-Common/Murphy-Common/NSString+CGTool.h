@@ -21,6 +21,6 @@
 /**
  * @brief md5加密
  **/
--(NSString *)stringFromMD5;
+-(NSString *)md5;
 
 @end

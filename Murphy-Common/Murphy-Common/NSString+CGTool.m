@@ -18,7 +18,7 @@
 }
 
 #pragma mark - md5
--(NSString *)stringFromMD5{
+-(NSString *)md5{
     if(self == nil || [self length] == 0) return nil;
     //
     const char *val = [self UTF8String];
