@@ -18,15 +18,25 @@
 @implementation MXInputView
 
 //初始化
--(instancetype)initWithFrame:(CGRect)frame success:(void (^)())success{
-    if(self = [super initWithFrame:frame]){
+//-(instancetype)initWithFrame:(CGRect)frame success:(void (^)())success{
+//    if(self = [super initWithFrame:frame]){
+//        _success = success;
+//        _selfMinY = CGRectGetMinY(frame);
+//        [self layoutSubviews];
+//        [self notificationCenter];
+//    }
+//    return self;
+//}
+
+-(instancetype)initWithSuccess:(void (^)())success{
+    if(self = [super init]){
         _success = success;
-        _selfMinY = CGRectGetMinY(frame);
         [self layoutSubviews];
         [self notificationCenter];
     }
     return self;
 }
+
 
 //设置左边标题
 -(UILabel *)setLeftTitle:(NSString *)title{

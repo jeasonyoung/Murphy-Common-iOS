@@ -23,11 +23,10 @@
 }
 
 /**
- * @brief 初始化。
- * @param frame Frame。
+ * @brief 初始化
  * @param success 成功处理函数。
  **/
--(instancetype)initWithFrame:(CGRect)frame success:(void(^)())success;
+-(instancetype)initWithSuccess:(void(^)())success;
 
 /**
  * @brief 重置布局视图。

@@ -38,12 +38,6 @@
 }
 
 /**
- * @brief 初始化。
- * @param frame 初始化尺寸。
- **/
--(instancetype)initWithFrame:(CGRect)frame;
-
-/**
  * @brief 委托代理。
  **/
 @property(assign, nonatomic) id<MXTextViewDelegate> delegate;

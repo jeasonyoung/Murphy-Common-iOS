@@ -14,4 +14,5 @@ Pod::Spec.new do |s|
    s.dependency "SDWebImage","~> 3.8"
    s.dependency "MBProgressHUD","~> 1.0.0"
    s.dependency "AFNetworking","~> 2.0"
+   s.dependency "Masonry"
 end

@@ -7,10 +7,15 @@
 //
 
 #import "MXTextView.h"
+#import "Masonry.h"
 
-@interface MXTextView(){
-    NSMutableArray *_insetsHeight;
-}
+@interface MXTextView()
+
+//
+@property(strong, nonatomic)UIButton *btnDropdown;
+//
+@property(strong, nonatomic)UIView *accessoryView;
+
 @end
 
 @implementation MXTextView
@@ -18,28 +23,28 @@
 //覆盖父类委托属性处理
 @synthesize delegate = _delegate;
 
-//初始化
--(instancetype)initWithFrame:(CGRect)frame{
-    if(self = [super initWithFrame:frame]){
-        self.backgroundColor = [UIColor clearColor];//重置背景色
-        
-        _insetsHeight = [NSMutableArray array];
-        UIView *v = [[UIView alloc] init];
-        CGRect rect = v.frame;
-        rect.size.height = 20;
-        [v setFrame:rect];
-        
-        UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(10, 0, 100, 20)];
-        [btn setContentHorizontalAlignment:UIControlContentHorizontalAlignmentLeft];
-        [btn setImage:[UIImage imageNamed:@"MXTextField_Normal"] forState:UIControlStateNormal];
-        [btn setImage:[UIImage imageNamed:@"MXTextField_Highlight"] forState:UIControlStateHighlighted];
-        [btn addTarget:self action:@selector(hideKeyBoard:) forControlEvents:UIControlEventTouchUpInside];
-        [v addSubview:btn];
-        
-        [self setInputAccessoryView:v];
+#pragma mark --========== start 属性 =================
+
+-(UIButton *)btnDropdown{
+    if(!_btnDropdown){
+        _btnDropdown = [UIButton buttonWithType:UIButtonTypeCustom];
+        [_btnDropdown setContentHorizontalAlignment:UIControlContentHorizontalAlignmentLeft];
+        [_btnDropdown setImage:[UIImage imageNamed:@"MXTextField_Normal"] forState:UIControlStateNormal];
+        [_btnDropdown setImage:[UIImage imageNamed:@"MXTextField_Highlight"] forState:UIControlStateHighlighted];
+        [_btnDropdown addTarget:self action:@selector(hideKeyBoard:) forControlEvents:UIControlEventTouchUpInside];
     }
-    return self;
+    return _btnDropdown;
 }
+
+-(UIView *)accessoryView{
+    if(!_accessoryView){
+        _accessoryView = [[UIView alloc] init];
+    }
+    return _accessoryView;
+}
+
+#pragma mark --========== end   属性 =================
+
 
 //隐藏键盘事件
 -(void)hideKeyBoard:(id)sender{
@@ -50,14 +55,24 @@
 -(void)layoutSubviews{
     [super layoutSubviews];
     //
+    self.inputAccessoryView = self.accessoryView;
+    [self.accessoryView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(@0);
+        make.left.mas_equalTo(@0);
+        make.height.equalTo(self.mas_height);
+    }];
+    //
+    [self.accessoryView addSubview:self.btnDropdown];
+    [self.btnDropdown mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(@0);
+        make.left.mas_equalTo(@10);
+        
+    }];
+    
+    //
     if([self.delegate respondsToSelector:@selector(calculateInsetHeight)] && [self.delegate conformsToProtocol:@protocol(MXTextViewDelegate)]){
         [self.delegate calculateInsetHeight];
     }
-}
-
-//重载设置frame
--(void)setFrame:(CGRect)frame{
-    [super setFrame:frame];
 }
 
 //设置文本内容
