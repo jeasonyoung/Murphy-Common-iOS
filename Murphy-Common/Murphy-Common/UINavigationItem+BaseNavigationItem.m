@@ -12,26 +12,21 @@
 
 #include "MXHeader.h"
 
-#import "Masonry.h"
-
-@interface UINavigationItem (){
-    UILabel *_lbTitle;
-}
-@end
-
 @implementation UINavigationItem (BaseNavigationItem)
 
 -(void)setNewTitle:(NSString *)title{
-    if(!_lbTitle){
-        _lbTitle = [UILabel new];
+    if(!self.titleView || ![self.titleView isKindOfClass:[UILabel class]]){
+        UILabel *lbTitle = [UILabel new];
         //_lbTitle.frame = CGRectMake(0, 0, 22, 22);
-        _lbTitle.backgroundColor = bg_color_clear;
-        _lbTitle.font = font_nav_title;
-        _lbTitle.textColor = text_color_white;
-        _lbTitle.textAlignment = NSTextAlignmentCenter;
+        lbTitle.backgroundColor = bg_color_clear;
+        lbTitle.font = font_nav_title;
+        lbTitle.textColor = text_color_white;
+        lbTitle.textAlignment = NSTextAlignmentCenter;
+        self.titleView = lbTitle;
     }
-    _lbTitle.text = title;
-    self.titleView = _lbTitle;
+    if([self.titleView isKindOfClass:[UILabel class]]){
+        ((UILabel *)self.titleView).text = title;
+    }
 }
 
 -(UIButton *)setRightItemWithTarget:(id)target title:(NSString *)title action:(SEL)action image:(NSString *)image{
