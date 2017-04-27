@@ -40,46 +40,20 @@
     }
     return self;
 }
-//- (instancetype)initWithFrame:(CGRect)frame{
-//    if(self = [super initWithFrame:frame]){
-//        [self setContentVerticalAlignment:UIControlContentVerticalAlignmentCenter];
-//        [self setClearButtonMode:UITextFieldViewModeWhileEditing];
-//        
-//        UIView *v  = [[UIView alloc] init];
-//        CGRect rect = v.frame;
-//        rect.size.height = 20;
-//        [v setFrame:rect];
-//        
-//        UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(10, 0, 100, 20)];
-//        [btn setContentHorizontalAlignment:UIControlContentHorizontalAlignmentLeft];
-//        [btn setImage:[UIImage imageNamed:@"MXTextField_Normal"] forState:UIControlStateNormal];
-//        [btn setImage:[UIImage imageNamed:@"MXTextField_Highlight"] forState:UIControlStateHighlighted];
-//        [btn addTarget:self action:@selector(hideKeyBoard) forControlEvents:UIControlEventTouchUpInside];
-//        [v addSubview:btn];
-//        
-//        self.inputAccessoryView = v;
-//        self.leftViewMode = UITextFieldViewModeAlways;
-//    }
-//    return self;
-//}
 
 
 -(void)initViews{
     //
     self.leftViewMode = UITextFieldViewModeAlways;
     //
-    self.inputAccessoryView = self.accessoryView;
-    [self.accessoryView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.mas_equalTo(@0);
-        make.left.mas_equalTo(@0);
-        make.height.mas_equalTo(self.mas_height).with.offset(-2);
-    }];
-    //
     [self.accessoryView addSubview:self.btnDropdown];
     [self.btnDropdown mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.mas_equalTo(@10);
-        make.left.mas_equalTo(@0);
+        //top
+        make.top.equalTo(self.accessoryView.mas_top).with.offset(10);
+        //left
+        make.left.equalTo(self.accessoryView.mas_left);
     }];
+     self.inputAccessoryView = self.accessoryView;
 }
 
 
